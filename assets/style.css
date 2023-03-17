@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&family=Tilt+Prism&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    /* font-size: 12px; */
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+.border-green {
+    border: 1px solid green;
+}
+
+.border-blue {
+    border: 1px solid blue;
+}
+
+.mod-fontSize {
+    font-size: 12px;
+}
+
+.mod-width {
+    width: 500px;
+}
+
+.nav-bgcolor {
+    background-color: rgb(255, 234, 140);
+}
+
+body {
+    background-color: rgb(250, 237, 237);
+}
+
+.header-bg-image {
+    background-image: url(images/header.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+.mod-card {
+    background-image: linear-gradient(-180deg, grey, rgb(255, 255, 160), rgb(255, 187, 252));
+    width: 300px;
+}
+
+.brand-img {
+    width: 200px;
+}
+
+.book-img {
+    height: 180px;
+    width: fit-content;
+}
+
+.form-bg {
+    background-color: rgba(255, 255, 255, 0.445);
+}
+
+
+
+/* START of media ===================================== */
+@media (max-width: 1200px) {
+    
+    .header-bg-image {
+        height: 200px;
+    }
+
+    .brand-img {
+        width: 150px;
+    }
+
+    
+}
+
+@media (max-width: 992px) {
+    
+    .header-bg-image {
+        height: 150px;
+    }
+
+    .brand-img {
+        width: 100px;
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+    
+    .header-bg-image {
+        height: 100px;
+    }
+    
+    .brand-img {
+        width: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    .header-bg-image {
+        height: 80px;
+    }
+
+    .brand-img {
+        width: 50px;
+    }
+}
