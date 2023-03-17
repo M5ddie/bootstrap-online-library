@@ -70,7 +70,9 @@ body {
         width: 150px;
     }
 
-    
+    .mod-width {
+        width: 400px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -83,7 +85,9 @@ body {
         width: 100px;
     }
 
-    
+    .mod-width {
+        width: 300px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -95,6 +99,10 @@ body {
     .brand-img {
         width: 80px;
     }
+
+    .mod-width {
+        width: 300px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -105,5 +113,9 @@ body {
 
     .brand-img {
         width: 50px;
+    }
+
+    .mod-width {
+        width: 280px;
     }
 }
